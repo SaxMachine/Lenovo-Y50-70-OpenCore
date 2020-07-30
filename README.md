@@ -1,7 +1,5 @@
-# Y50-70-Hackintosh
+# High Sierra and Catalina installation with OpenCore 0.5.9
 ## Resources for creating a Hackintosh Installation for Lenovo Y50-70 FHD Laptop
-### README.md is under work
-
 **Specs:**
   - Intel Core i7-4710HQ -- [Product Page](https://ark.intel.com/content/www/us/en/ark/products/78930/intel-core-i7-4710hq-processor-6m-cache-up-to-3-50-ghz.html)
   - Intel HD4600 iGPU
@@ -11,7 +9,6 @@
   - Replacing the WiFi Card needs a modified BIOS due to Blacklisting non-OEM Cards
 
 
-High Sierra and Catalina installation with OpenCore 0.5.9
 
 What you need
 
