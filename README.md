@@ -53,6 +53,10 @@ Then insure:
 - secure boot is disabled
 - enable Legacy Boot (but UEFI first) and you may experience less boot time glitches
 
+**For the UHD model, the DVMT-prealloc BIOS setting must be changed to 128MB. One of two methods can be used:**
+- use a EFI shell to change the DVMT-prealloc from the shell.
+- use a patched BIOS which unlocks the advanced menu
+
 **What you have to do:**
  
 - Install MacOS with pre-installation EFI
