@@ -93,7 +93,7 @@ Generic:
     
 
   
-  Data that you have to modify on Config.plist/Platforminfo/Generic with PlistEditorPro or other text editor.
+Data that you have to modify on Config.plist/Platforminfo/Generic with [PlistEditorPro](https://www.fatcatsoftware.com/plisteditpro/) or other plist editor.
   
   ![PliseditorPRO](https://raw.githubusercontent.com/SaxMachine/Lenovo-Y50-70-OpenCore/master/1.png)
   
