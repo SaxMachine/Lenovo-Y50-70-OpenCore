@@ -66,7 +66,7 @@ Then insure:
   
   Data that you have to modify on Config.plist/Platforminfo/Generic with PlistEditorPro or other text editor.
   
-  ![PliseditorPRO](/https://raw.githubusercontent.com/SaxMachine/Lenovo-Y50-70-OpenCore/master/1.png)
+  ![PliseditorPRO](https://raw.githubusercontent.com/SaxMachine/Lenovo-Y50-70-OpenCore/master/1.png)
 Format: ![Alt Text](url)
 
   
