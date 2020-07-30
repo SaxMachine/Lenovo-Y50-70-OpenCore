@@ -82,7 +82,7 @@ Then insure:
 - iMac19,1 | C02ZW3YFJV3Q | C02952301GULNV9UE
 "
 
-"Generic:
+Generic:
 
     SpoofVendor: YES (This prevents issues with having “Apple,inc” as manufacturer).
     SystemUUID: Can be generated with MacSerial or use previous from Clover’s config.plist.
@@ -90,7 +90,7 @@ Then insure:
     ROM: <> (6 character MAC address, can be entirely random but should be unique).
     SystemProductName: Can be generated with MacSerial or use previous from Clover’s config.plist.
     SystemSerialNumber: Can be generated with MacSerial or use previous from Clover’s config.plist.
-    "
+    
 
   
   Data that you have to modify on Config.plist/Platforminfo/Generic with PlistEditorPro or other text editor.
