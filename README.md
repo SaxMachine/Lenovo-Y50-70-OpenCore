@@ -61,8 +61,35 @@ Then insure:
  
 - Install MacOS with pre-installation EFI
 - copy EFI post-installation folder on EFI partition of your HD.
-- Modify SMBIOS data with your information:
+- Modify SMBIOS data with your information for imessage/facetime;
+
   You have to import from your older configuration or generate a new one
+  
+    - Use MacSerial to generate your SMBIOS
+    - MacSerial Example in terminal macserial -a | grep -i iMac19,1
+
+"Output Example from above command:
+
+iMac19,1 | C02YC2Y1JV3Q | C02909403CDLNV9A8
+iMac19,1 | C02YX1Y9JV3Q | C02926401GULNV91H
+iMac19,1 | C02YN07JJV3Q | C02918207J9LNV91M
+iMac19,1 | C02YJKZTJV3Q | C029142004NLNV9A8
+iMac19,1 | C02Y6QY5JV3Q | C02905100CDLNV9FB
+iMac19,1 | C02Z4EY6JV3Q | C02930310GULNV98C
+iMac19,1 | C02Y1VY1JV3Q | C02853130GULNV91M
+iMac19,1 | C02ZL06PJV3Q | C029438024NLNV9JA
+iMac19,1 | C02YX072JV3Q | C02926500CDLNV9CB
+iMac19,1 | C02ZW3YFJV3Q | C02952301GULNV9UE
+
+Generic:
+
+    SpoofVendor: YES (This prevents issues with having “Apple,inc” as manufacturer).
+    SystemUUID: Can be generated with MacSerial or use previous from Clover’s config.plist.
+    MLB: Can be generated with MacSerial or use previous from Clover’s config.plist.
+    ROM: <> (6 character MAC address, can be entirely random but should be unique).
+    SystemProductName: Can be generated with MacSerial or use previous from Clover’s config.plist.
+    SystemSerialNumber: Can be generated with MacSerial or use previous from Clover’s config.plist."
+
   
   Data that you have to modify on Config.plist/Platforminfo/Generic with PlistEditorPro or other text editor.
   
@@ -82,9 +109,12 @@ Then insure:
 
 **Credits:**
 
-Rehabman
+*Rehabman
 https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/
 
 
-Xsiry
+*Xsiry
 https://github.com/xsiry/Lenovo-Y50-Hackintosh-OC/blob/master/README.md
+
+*acidadanthera
+https://github.com/acidanthera/OpenCorePkg
