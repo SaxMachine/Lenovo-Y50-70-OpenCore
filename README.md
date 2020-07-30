@@ -62,9 +62,7 @@ What you have to do:
   
   Data that you have to modify on Config.plist/Platforminfo/Generic
   
-  	<key>AdviseWindows</key>
-			<false/>
-			<key>MLB</key>
+  			"<key>MLB</key>
 			<string>M0000000000000001</string>
 			<key>ROM</key>
 			<data>
@@ -77,7 +75,7 @@ What you have to do:
 			<key>SystemSerialNumber</key>
 			<string>C00000000000</string>
 			<key>SystemUUID</key>
-			<string>00000000-0000-0000-0000-000000000000</string>
+			<string>00000000-0000-0000-0000-000000000000</string>"
 
 
  
