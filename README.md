@@ -1,4 +1,4 @@
-# High Sierra and Catalina installation with OpenCore 0.5.9 #
+# Catalina or lower installation with OpenCore 0.5.9 #
 
 **Specs:**
   - Intel Core i7-4710HQ -- [Product Page](https://ark.intel.com/content/www/us/en/ark/products/78930/intel-core-i7-4710hq-processor-6m-cache-up-to-3-50-ghz.html)
