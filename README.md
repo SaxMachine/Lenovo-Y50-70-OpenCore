@@ -46,9 +46,10 @@ Then insure:
 Install MacOS with pre-installation EFI and then copy EFI post-installation folder on EFI partition of your HD, unzip Resources folder into the same folder.
  
 Post installation commands to do
-sudo pmset -a hibernatemode 0
-sudo rm /var/vm/sleepimage
-sudo mkdir /var/vm/sleepimage
+
+- sudo pmset -a hibernatemode 0
+- sudo rm /var/vm/sleepimage
+- sudo mkdir /var/vm/sleepimage
 
 Credits:
 
