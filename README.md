@@ -65,7 +65,7 @@ Then insure:
 
   You have to import from your older configuration or generate a new one
   
-    - Use MacSerial to generate your SMBIOS https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/macserial
+    - Use MacSerial to generate your SMBIOS --[Macserial](https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/macserial)
     - MacSerial Example in terminal macserial -a | grep -i iMac19,1
 
 Output Example from above command:
@@ -112,11 +112,14 @@ Generic:
 **Credits:**
 
 *Rehabman
-https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/
+[tonymacx86 forum](https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/)
 
 
 *Xsiry
-https://github.com/xsiry/Lenovo-Y50-Hackintosh-OC/blob/master/README.md
+[Github xsiry](https://github.com/xsiry/Lenovo-Y50-Hackintosh-OC/)
 
 *acidadanthera
-https://github.com/acidanthera/OpenCorePkg
+[Github Acidanthera](https://github.com/acidanthera/OpenCorePkg)
+
+*macos86.it
+[Forum](https://www.macos86.it)
