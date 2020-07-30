@@ -53,7 +53,7 @@ Then insure:
 - secure boot is disabled
 - enable Legacy Boot (but UEFI first) and you may experience less boot time glitches
  
-Install MacOS with pre-installation EFI and then copy EFI post-installation folder on EFI partition of your HD, unzip Resources folder into the same folder.
+Install MacOS with pre-installation EFI and then copy EFI post-installation folder on EFI partition of your HD, unzip Resources.zip folder into the same folder EFI/OC/RESOURCES.
  
 Post installation commands to do
 
