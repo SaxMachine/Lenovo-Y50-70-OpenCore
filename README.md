@@ -64,22 +64,15 @@ Then insure:
 - Modify SMBIOS data with your information:
   You have to import from your older configuration or generate a new one
   
-  Data that you have to modify on Config.plist/Platforminfo/Generic
+  Data that you have to modify on Config.plist/Platforminfo/Generic with PlistEditorPro or other text editor.
   
-  			"<key>MLB</key>
-			<string>M0000000000000001</string>
-			<key>ROM</key>
-			<data>
-			ESIzRFVm
-			</data>
-			<key>SpoofVendor</key>
-			<true/>
-			<key>SystemProductName</key>
-			<string>MacBookPro11,2</string>
-			<key>SystemSerialNumber</key>
-			<string>C00000000000</string>
-			<key>SystemUUID</key>
-			<string>00000000-0000-0000-0000-000000000000</string>"
+  ![PliseditorPRO](/https://raw.githubusercontent.com/SaxMachine/Lenovo-Y50-70-OpenCore/master/1.png)
+Format: ![Alt Text](url)
+
+  
+ 
+  
+  	
 
 
  
