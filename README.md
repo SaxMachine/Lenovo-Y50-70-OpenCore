@@ -1,6 +1,6 @@
-# High Sierra and Catalina installation with OpenCore 0.5.9
-## Resources for creating a Hackintosh Installation for Lenovo Y50-70
-**Specs:**
+# High Sierra and Catalina installation with OpenCore 0.5.9 #
+
+##**Specs:**
   - Intel Core i7-4710HQ -- [Product Page](https://ark.intel.com/content/www/us/en/ark/products/78930/intel-core-i7-4710hq-processor-6m-cache-up-to-3-50-ghz.html)
   - Intel HD4600 iGPU
   - Nvidia GTX 860M 4GB (nsupported)
@@ -10,14 +10,14 @@
 
 
 
-What you need:
+**What you need:**
 
 - Lenovo Y50-70 (or Y70) with either 1080p or UHD/4K display
 - macOS or OS X downloaded from the Mac App Store
 - 8GB USB stick with EFI folder pre-installation on EFI Partition and MacOSX installation.
 - Broadcom BCM94352Z for native WiFi (Lenovo FRU: 04X6020, Lenovo PN: 20-200480) or MacOS Broadcom compatible model with BIOS unlock.
 
-What works:
+**What works:**
 
 Expect to work:
 - built-in keyboard (with brightness keys)
@@ -37,14 +37,14 @@ Expect to work:
 - wired Ethernet
 - retina scaling (in the case of UHD screen)
 
-Not tested/not working:
+**Not tested/not working:**
 
 The following features have issues, or have not been tested:
 - Nvidia GTX 860M 4GB
 - card reader is not working
 
 
-BIOS settings:
+**BIOS settings:**
 
 To start, set BIOS to Windows 8 defaults.
 
@@ -53,7 +53,7 @@ Then insure:
 - secure boot is disabled
 - enable Legacy Boot (but UEFI first) and you may experience less boot time glitches
 
-What you have to do:
+**What you have to do:**
  
 - Install MacOS with pre-installation EFI
 - copy EFI post-installation folder on EFI partition of your HD.
@@ -79,13 +79,13 @@ What you have to do:
 
 
  
-Post installation commands to do
+**Post installation commands to do**
 
 - sudo pmset -a hibernatemode 0
 - sudo rm /var/vm/sleepimage
 - sudo mkdir /var/vm/sleepimage
 
-Credits:
+**Credits:**
 
 Rehabman
 https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/
