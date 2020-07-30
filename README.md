@@ -65,10 +65,10 @@ Then insure:
 
   You have to import from your older configuration or generate a new one
   
-    - Use MacSerial to generate your SMBIOS
+    - Use MacSerial to generate your SMBIOS https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/macserial
     - MacSerial Example in terminal macserial -a | grep -i iMac19,1
 
-"Output Example from above command:
+Output Example from above command:
 
 - iMac19,1 | C02YC2Y1JV3Q | C02909403CDLNV9A8 
 - iMac19,1 | C02YX1Y9JV3Q | C02926401GULNV91H
@@ -80,7 +80,7 @@ Then insure:
 - iMac19,1 | C02ZL06PJV3Q | C029438024NLNV9JA
 - iMac19,1 | C02YX072JV3Q | C02926500CDLNV9CB
 - iMac19,1 | C02ZW3YFJV3Q | C02952301GULNV9UE
-"
+
 
 Generic:
 
