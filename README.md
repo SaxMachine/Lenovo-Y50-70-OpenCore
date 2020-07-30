@@ -37,11 +37,10 @@ Expect to work:
 - wired Ethernet
 - retina scaling (in the case of UHD screen)
 
-**Not tested/not working:**
+**Not working:**
 
-The following features have issues, or have not been tested:
-- Nvidia GTX 860M 4GB
-- card reader is not working
+- Nvidia GTX 860M 4GB (It doesn't work and it will never work)
+- card reader 
 
 
 **BIOS settings:**
