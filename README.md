@@ -43,7 +43,7 @@ Then insure:
 - secure boot is disabled
 - enable Legacy Boot (but UEFI first) and you may experience less boot time glitches
  
-Install MacOS and then copy EFI post-installation folder on EFI partition of your HD 
+Install MacOS with pre-installation EFI and then copy EFI post-installation folder on EFI partition of your HD, unzip Resources folder into the same folder.
  
 Post installation commands to do
 sudo pmset -a hibernatemode 0
@@ -51,7 +51,10 @@ sudo rm /var/vm/sleepimage
 sudo mkdir /var/vm/sleepimage
 
 Credits:
+
 Rehabman
 https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/
+
+
 Xsiry
 https://github.com/xsiry/Lenovo-Y50-Hackintosh-OC/blob/master/README.md
