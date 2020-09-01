@@ -12,7 +12,7 @@
 
 **What you need:**
 
-- Lenovo Y50-70 (or Y70) with either 1080p or UHD/4K display
+- Lenovo Y50-70 (or Y70 Haswell) with either 1080p or UHD/4K display
 - macOS or OS X downloaded from the Mac App Store
 - 8GB USB stick with EFI folder pre-installation on EFI Partition and MacOSX installation.
 - Broadcom BCM94352Z for native WiFi (Lenovo FRU: 04X6020, Lenovo PN: 20-200480) or MacOS Broadcom compatible model with BIOS unlock.
