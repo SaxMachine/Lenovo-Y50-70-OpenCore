@@ -54,6 +54,8 @@ Then insure:
 - enable Legacy Boot (but UEFI first) and you may experience less boot time glitches
  
 Install MacOS with pre-installation EFI and then copy EFI post-installation folder on EFI partition of your HD.
+
+
  
 Post installation commands to do
 
