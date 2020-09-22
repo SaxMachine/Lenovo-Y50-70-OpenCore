@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>#WARNING - 1</key>
-	<string>OpenCore BETA3</string>
+	<string>OpenCore BETA3 SAXMACHINE</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
