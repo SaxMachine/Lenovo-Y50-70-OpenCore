@@ -1,4 +1,6 @@
-# Catalina or lower installation with OpenCore 0.6.1#
+#Catalina or lower installation with OpenCore#
+
+**OpenCore V. of Post installation: 0.6.1**
 
 **Specs:**
   - Intel Core i7-4710HQ -- [Product Page](https://ark.intel.com/content/www/us/en/ark/products/78930/intel-core-i7-4710hq-processor-6m-cache-up-to-3-50-ghz.html)
