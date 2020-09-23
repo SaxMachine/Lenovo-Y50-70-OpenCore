@@ -58,11 +58,13 @@ Then insure:
 - use a EFI shell to change the DVMT-prealloc from the shell.
 - use a patched BIOS which unlocks the advanced menu
 
-**What you have to do:**
+# What you have to do:
  
-- Install MacOS with pre-installation EFI
-- copy EFI post-installation folder on EFI partition of your HD.
-- Modify SMBIOS data with your information for imessage/facetime;
+**1 - Install MacOS with pre-installation EFI
+
+**2- copy EFI post-installation folder on EFI partition of your HD.
+
+**3- Modify SMBIOS data with your information for imessage/facetime
 
   You have to import from your older configuration or generate a new one
   
@@ -98,16 +100,7 @@ Data that you have to modify on Config.plist/Platforminfo/Generic with [PlistEdi
   
   ![PliseditorPRO](https://raw.githubusercontent.com/SaxMachine/Lenovo-Y50-70-OpenCore/master/1.png)
   
- 
-<<<<<<< HEAD
-Install MacOS with pre-installation EFI and then copy EFI post-installation folder on EFI partition of your HD.
-=======
   
-  	
->>>>>>> 1d8e12ce9a732162547f9b1420b26332c3e56289
-
-
- 
 **Post installation commands to do**
 
 - sudo pmset -a hibernatemode 0
