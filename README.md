@@ -1,4 +1,4 @@
-## Catalina or lower installation with OpenCore
+## Catalina or lower installation with OpenCore for Lenovo Y50-70
 
 **OpenCore - post-installation: 0.6.1**
 
