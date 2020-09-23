@@ -60,13 +60,13 @@ Then insure:
 
 # What you have to do:
  
-**- Install MacOS with pre-installation EFI
+- Install MacOS with pre-installation EFI
 
-**- copy EFI post-installation folder on EFI partition of your HD.
+- copy EFI post-installation folder on EFI partition of your HD.
 
-**- Modify SMBIOS data with your information for imessage/facetime
+- Modify SMBIOS data with your information for imessage/facetime
 
-  You have to import from your older configuration or generate a new one
+  **You have to import from your older configuration or generate a new one
   
     - Use MacSerial to generate your SMBIOS --[Macserial](https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/macserial)
     - MacSerial Example in terminal macserial -a | grep -i iMac19,1
