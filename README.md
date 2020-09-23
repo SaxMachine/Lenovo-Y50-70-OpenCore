@@ -60,11 +60,11 @@ Then insure:
 
 # What you have to do:
  
-**1 - Install MacOS with pre-installation EFI
+**- Install MacOS with pre-installation EFI
 
-**2- copy EFI post-installation folder on EFI partition of your HD.
+**- copy EFI post-installation folder on EFI partition of your HD.
 
-**3- Modify SMBIOS data with your information for imessage/facetime
+**- Modify SMBIOS data with your information for imessage/facetime
 
   You have to import from your older configuration or generate a new one
   
