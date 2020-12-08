@@ -118,9 +118,12 @@ Add to your config > DevicePropieties > PciRoot(0x0)/Pci(0x2,0x0)
 - framebuffer-fbmem -> AACQAA==
 - framebuffer-stolenmem -> AAAwAQ==
 
+NB: this values are in text editor format!
 
 
 **BigSur WIFI ISSUE**
+
+NB: this values are in text editor format!
 
 Remove from config:
 
