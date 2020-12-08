@@ -101,16 +101,6 @@ Data that you have to modify on Config.plist/Platforminfo/Generic with [PlistEdi
   ![PliseditorPRO](https://raw.githubusercontent.com/SaxMachine/Lenovo-Y50-70-OpenCore/master/1.png)
   
   
-**HD PANEL ISSUE**
-
-Add to your config:
-
-- framebuffer-cursormem -> AACQAA==
-- framebuffer-fbmem -> AACQAA==
-- framebuffer-stolenmem -> AAAwAQ==
-
-
-  
   
 **Post installation commands to do**
 
@@ -120,10 +110,19 @@ Add to your config:
 
 
 
-**Big Sur wifi issue**
-Removed:
-Code:
-<key>PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)</key>
+**HD PANEL ISSUE**
+Add to your config:
+
+- framebuffer-cursormem -> AACQAA==
+- framebuffer-fbmem -> AACQAA==
+- framebuffer-stolenmem -> AAAwAQ==
+
+
+
+**BigSur WIFI ISSUE**
+
+Remove from code
+
             <dict>
                 <key>AAPL,slot-name</key>
                 <string>WLAN</string>
@@ -136,12 +135,12 @@ Code:
                 <key>name</key>
                 <string>Airport</string>
             </dict>
-
-Updated AirportBRCMFixup.kext to latest version
-Removed AirPortBrcm4360_Injector.kext from plugins folder of AirportBRCMFixup kext
+                         
+Update AirportBRCMFixup.kext to latest version
+Remove AirPortBrcm4360_Injector.kext from plugins folder of AirportBRCMFixup kext
 and added entry 
-Code:
-<dict>
+
+            <dict>
                 <key>Arch</key>
                 <string>Any</string>
                 <key>BundlePath</key>
