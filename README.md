@@ -111,7 +111,8 @@ Data that you have to modify on Config.plist/Platforminfo/Generic with [PlistEdi
 
 
 **HD PANEL ISSUE**
-Add to your config:
+
+Add to your config > DevicePropieties > PciRoot(0x0)/Pci(0x2,0x0)
 
 - framebuffer-cursormem -> AACQAA==
 - framebuffer-fbmem -> AACQAA==
@@ -121,7 +122,7 @@ Add to your config:
 
 **BigSur WIFI ISSUE**
 
-Remove from code
+Remove from config:
 
             <dict>
                 <key>AAPL,slot-name</key>
