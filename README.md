@@ -118,7 +118,7 @@ Add to your config:
 - sudo rm /var/vm/sleepimage
 - sudo mkdir /var/vm/sleepimage
 
-_____________________________________________________
+
 
 **Big Sur wifi issue**
 Removed:
@@ -161,8 +161,6 @@ Code:
             </dict>
 
             
-____________________________________________________________________________________            
-
 **Credits:**
 
 *Rehabman
