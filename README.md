@@ -1,4 +1,4 @@
-## Catalina or lower installation with OpenCore for Lenovo Y50-70
+## Catalina or macos installation with OpenCore for Lenovo Y50-70
 
 **OpenCore - post-installation: 0.6.1**
 
@@ -101,11 +101,68 @@ Data that you have to modify on Config.plist/Platforminfo/Generic with [PlistEdi
   ![PliseditorPRO](https://raw.githubusercontent.com/SaxMachine/Lenovo-Y50-70-OpenCore/master/1.png)
   
   
+**HD PANEL ISSUE**
+
+Add to your config:
+
+- framebuffer-cursormem -> AACQAA==
+- framebuffer-fbmem -> AACQAA==
+- framebuffer-stolenmem -> AAAwAQ==
+
+
+  
+  
 **Post installation commands to do**
 
 - sudo pmset -a hibernatemode 0
 - sudo rm /var/vm/sleepimage
 - sudo mkdir /var/vm/sleepimage
+
+
+********************************************UPDATE FOR BIG SUR***************************************************
+
+**Big Sur wifi issue**
+remove this entry from config.plist
+
+<key>PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)</key>
+            <dict>
+                <key>AAPL,slot-name</key>
+                <string>WLAN</string>
+                <key>compatible</key>
+                <string>pci14e4,4353</string>
+                <key>device_type</key>
+                <string>Airport Extreme</string>
+                <key>model</key>
+                <string>DW1560 (BCM4352) 802.11ac Wireless</string>
+                <key>name</key>
+                <string>Airport</string>
+            </dict>
+ 
+Update AirportBRCMFixup.kext to the latest version
+Delete AirPortBrcm4360_Injector.kext from plugin folder on AirportBRCMFixup kext
+and add this on Kernel section,
+Code:
+<dict>
+                <key>Arch</key>
+                <string>Any</string>
+                <key>BundlePath</key>
+                <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
+                <key>Comment</key>
+                <string></string>
+                <key>Enabled</key>
+                <true/>
+                <key>ExecutablePath</key>
+                <string></string>
+                <key>MaxKernel</key>
+                <string></string>
+                <key>MinKernel</key>
+                <string></string>
+                <key>PlistPath</key>
+                <string>Contents/Info.plist</string>
+            </dict>
+            
+            
+            
 
 **Credits:**
 
