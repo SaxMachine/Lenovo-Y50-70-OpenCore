@@ -118,6 +118,11 @@ Add to your config > DevicePropieties > PciRoot(0x0)/Pci(0x2,0x0)
 - framebuffer-fbmem -> AACQAA==
 - framebuffer-stolenmem -> AAAwAQ==
 
+          Ex: <key>framebuffer-stolenmem</key>
+				      <data>
+				      AAAwAQ==
+				      </data>
+
 NB: this values are in text editor format!
 
 
