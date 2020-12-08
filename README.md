@@ -121,9 +121,8 @@ Add to your config:
 _____________________________________________________
 
 **Big Sur wifi issue**
-remove this entry from config.plist
-
-
+Removed:
+Code:
 <key>PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)</key>
             <dict>
                 <key>AAPL,slot-name</key>
@@ -137,11 +136,11 @@ remove this entry from config.plist
                 <key>name</key>
                 <string>Airport</string>
             </dict>
- 
-Update AirportBRCMFixup.kext to the latest version
-Delete AirPortBrcm4360_Injector.kext from plugin folder on AirportBRCMFixup kext
-and add this on Kernel section,
 
+Updated AirportBRCMFixup.kext to latest version
+Removed AirPortBrcm4360_Injector.kext from plugins folder of AirportBRCMFixup kext
+and added entry 
+Code:
 <dict>
                 <key>Arch</key>
                 <string>Any</string>
@@ -160,7 +159,7 @@ and add this on Kernel section,
                 <key>PlistPath</key>
                 <string>Contents/Info.plist</string>
             </dict>
-            
+
             
 ____________________________________________________________________________________            
 
