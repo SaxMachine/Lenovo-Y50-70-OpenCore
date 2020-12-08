@@ -118,11 +118,11 @@ Add to your config:
 - sudo rm /var/vm/sleepimage
 - sudo mkdir /var/vm/sleepimage
 
-
-********************************************UPDATE FOR BIG SUR***************************************************
+_____________________________________________________
 
 **Big Sur wifi issue**
 remove this entry from config.plist
+
 
 <key>PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)</key>
             <dict>
@@ -141,7 +141,7 @@ remove this entry from config.plist
 Update AirportBRCMFixup.kext to the latest version
 Delete AirPortBrcm4360_Injector.kext from plugin folder on AirportBRCMFixup kext
 and add this on Kernel section,
-Code:
+
 <dict>
                 <key>Arch</key>
                 <string>Any</string>
@@ -162,7 +162,7 @@ Code:
             </dict>
             
             
-            
+____________________________________________________________________________________            
 
 **Credits:**
 
