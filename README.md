@@ -1,5 +1,7 @@
 ## Catalina or macos installation with OpenCore for Lenovo Y50-70
 
+##For Big Sur please refear to the exellent work of https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70
+
 **OpenCore - post-installation: 0.6.1**
 
 **Specs:**
